@@ -1,0 +1,228 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+html{
+    scroll-behavior: smooth;
+}
+.movies-sec{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    background-color: rgb(6, 1, 17);
+    color: white;
+    padding-left: 1%;
+    gap: 12px;
+}
+.welcome-poster{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    min-height: 70vh;
+}
+.poster-description{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.poster-description-1>h3{
+    font-size: 2.8rem;
+}
+.poster-description-1{
+    text-align: center;
+    width: 100%;
+}
+.poster-description-1>h5{
+    padding-bottom: 4vh;
+}
+.poster-description-1>p{
+    font-size: .8rem;
+}
+.poster-description-2{
+    min-width: 55%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1.4fr;
+    gap: 2% 1%;
+}
+.yellowbag>img{
+    position: relative;
+    top: 4px;
+}
+.UA,.UAsmall{
+    background-color: gray;
+    padding: 2px;
+    font-size: .8rem;
+    border-radius: 2px;
+    /* height:1.4rem; */
+    width: fit-content;
+    position: relative;
+    top: 2px;
+}
+.more-detail-btn{
+    width:max-content;
+    height: fit-content;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 6% 4%;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.plus-icon,.plus-iconSmall{
+    width: 2rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: gray;
+    font-size: 1.4rem;
+    border-radius: 50%;
+}
+.poster-image{
+    width: 70%;
+    background-image:linear-gradient(to right, rgb(6, 1, 17) 10%, transparent 30%),url(images/skyblue.png);
+}
+/* .poster-image>img{
+    object-fit: fill;
+    width: 100%;
+} */
+.moviesContainer{
+    display: flex;
+    overflow-x: scroll;
+    gap: 8px;
+    scrollbar-width: none;
+    /* translate: 0 0; */
+}
+
+.moviesFlex{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:12px;
+    padding: 8px 0;
+}
+.moviesHead{
+    flex: 1;
+    position: relative;
+}
+.h-trans{
+    position: absolute;
+    outline: none;
+    border: none;
+    top: 40%;
+    right: 10px;
+    font-size: 2.4rem;
+    right: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8%;
+    text-align: center;
+    background-color: rgba(158, 155, 155,.7);
+}
+.prime{
+    color: blue;
+}
+.prime-categorie{
+    font-weight: 700;
+    padding-right: 6%;
+}
+.seeMore{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    font-weight: 600;
+}
+.moviesCard{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    box-shadow: 2px 2px 4px black;
+}
+.moviesCardImage{
+    width: 100%;
+    height: 180px;
+}
+.moviesCardImage>img{
+    object-fit: cover;
+}
+.moviesCardContent{
+    display: flex;
+    flex-direction: column;
+    padding:0 2%;
+    gap: 2px;
+}
+.pTrial{
+    font-size: .8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+.blue-tick>img{
+    width: 18px;
+    height: 18px;
+}
+.CardName{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+}
+.movieName{
+    flex: 1.6;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.plus-iconSmall{
+    /* flex: 1; */
+    font-size: .8rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.trailer-icon{
+    flex: .2;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.trailer-icon>img{
+    width: 22px;
+    height: 22px;
+}
+.cardYear{
+    display: flex;
+    width: 80%;
+    column-gap: 8%;
+    align-items: center;
+}
+.cardYear>p{
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(131, 129, 129);
+}
+.UAsmall{
+    color: white;
+}
+.movieDescription{
+    width: 100%;
+    color:rgb(131, 129, 129) ;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+
+
+
+
